@@ -68,7 +68,7 @@ Future<void> generateAndSavePdf(String warehouseId) async {
   var status = await Permission.storage.request();
   if (!status.isGranted) {
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('Необходимо разрешение на использование хранилища для сохранения файла'))
+      const SnackBar(content: Text('Необходимо разрешение на использование хранилища для сохранения файла'))
     );
     return;
   }
@@ -77,7 +77,7 @@ Future<void> generateAndSavePdf(String warehouseId) async {
   String? selectedDirectory = await FilePicker.platform.getDirectoryPath();
   if (selectedDirectory == null) {
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('Выбор папки отменен пользователем'))
+      const SnackBar(content: Text('Выбор папки отменен пользователем'))
     );
     return;
   }
