@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "979379693109",
+    "project_id": "storedge-3515a",
+    "storage_bucket": "storedge-3515a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979379693109:android:78d4b2ec76213d2bbbf37c",
+        "android_client_info": {
+          "package_name": "com.example.mobile_wharehouse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM-nskhW7UdUt29x1Cqrza8N7aGHHTxw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979379693109:android:211dd1366a0b225abbf37c",
+        "android_client_info": {
+          "package_name": "com.example.storedge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM-nskhW7UdUt29x1Cqrza8N7aGHHTxw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
