@@ -3,6 +3,8 @@ workflows:
     name: "Flutter Application"
     environment:
       flutter: stable
+      xcode: latest  # Указывает последнюю доступную версию Xcode
+      cocoapods: default  # Использует последнюю версию CocoaPods
     scripts:
       - name: Install Flutter
         script: |
@@ -11,5 +13,7 @@ workflows:
           flutter doctor
       - name: Install dependencies
         script: flutter pub get
-      - name: Build
-        script: flutter build apk --debug
+      - name: Install CocoaPods dependencies
+        script: cd ios && pod install  # Устанавливает зависимости CocoaPods для iOS проекта
+      - name: Build iOS
+        script: flutter build ios --release --no-codesign  # Собирает iOS без подписи кода
