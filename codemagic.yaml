@@ -12,4 +12,4 @@ workflows:
       - name: Install dependencies
         script: flutter pub get
       - name: Build
-        script: flutter build apk --release
+        script: flutter build apk --debug
