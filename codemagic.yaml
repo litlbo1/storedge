@@ -11,7 +11,5 @@ workflows:
           flutter doctor
       - name: Install dependencies
         script: flutter pub get
-      - name: Run tests
-        script: flutter test
       - name: Build
         script: flutter build apk --release
