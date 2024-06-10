@@ -6,6 +6,7 @@ target 'Runner' do
   use_frameworks!
 
   # Pods for Runner
+  pod 'cloud_firestore', :path => '.symlinks/plugins/cloud_firestore/ios'
 
   target 'RunnerTests' do
     inherit! :search_paths
