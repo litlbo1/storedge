@@ -1,5 +1,5 @@
 # storedge
 
-# Mobile warehouse. 
+# Mobile Flutter warehouse. 
 
-Вevelopment is underway, the application will be ready soon
+Development is underway, the application will be ready soon
